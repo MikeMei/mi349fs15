@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<head>
+	<style>
+		body {
+			background-color: #232323;
+		}
+		h1 {
+			text-align: center;
+			font: helvetica;
+			font-size: 32px;
+			color: green;
+		}
+		h2 {
+			text-align: center;
+			font: helvetica;
+			font-size: 20px;
+			color: white;
+		}
+		h3 {
+			text-align: center;
+			font: helvetica;
+			font-size: 20px;
+			color: white;
+			margin-top: -10px;
+		}
+		h4 {
+			text-align: left;
+			font: helvetica;
+			font-size: 18px;
+			color: white;
+			margin-top: -10px;
+
+		}
+		p {
+			font-size: 14px;
+			margin-top: -10px;
+			color: green;
+
+		}
+		.container {
+		}
+		.bad {
+			width: 48%;
+			float: left;
+			border-color: black;
+			border-style: solid;
+			border-width: 1%;
+		}
+		.good {
+			width: 48%;
+			float: right;
+			border-color: black;
+			border-style: solid;
+			border-width: 1%;
+		}
+
+	</style>
+</head>
+
+<body>
+	<h1> Design Principles </h1>
+	<div class="container">
+		<div class="bad">
+			<h2>Without Chunking</h2>
+			<h3>How to make fried rice:</h3>
+			<p>Ingredients: eggs, rice, green onions, assorted vegetables(broccoli, carrots, spinach, lettuce, etc)
+			assorted meats( chicken, beef, pork or shrimp) salt pepper soy sauce Instructions: wash and cook rice, 
+			wash and cut vegetables, chop/dice meat, heat up a pan, crack and whisk eggs in a bowl, oil the hot pan and add in the meat,
+			add in eggs, add in vegetables, add in rice and seasoning, cook for several minutes and enjoy
+			</p>
+			<img src="rice.jpg" style="width:600px; height:400px;" >
+
+		</div>
+		<div class="good">
+			<h2>With Chunking</h2>
+			<h3>How to make fried rice:</h3>
+			<div class="ingredients">
+				<h4>Ingredients:</h4>
+				<p> -eggs <br>
+					-rice <br>
+					-green onions <br>
+					-assorted vegetables(broccoli, carrots, spinach, lettuce, etc) <br>
+					-assorted meats( chicken, beef, pork or shrimp) <br>
+					-salt <br>
+					-pepper <br>
+					-soy sauce <br> 
+				</p>
+			</div>
+			<div class="instructions">
+				<h4>Instructions:</h4>
+				<p> 1. Wash and cook rice <br>
+					2. Wash/clean and cut vegetables <br>
+					3. chop/dice meat <br>
+					4. heat up a pan <br>
+					5. crack and whisk eggs in a bowl <br>
+					6. oil the hot pan and add in the meat <br>
+					7. add in eggs <br>
+					8. add in vegetables <br>
+					9. add in rice and seasoning <br>
+					10. cook for several minutes and enjoy <br>
+
+			</div>
+			<div class="final"> 
+				<h4>Final Result:</h4>
+				<img src="rice.jpg" style="width:600px; height:400px;" >
+			</div>
+		</div>
+	</div>
+</body>
+
