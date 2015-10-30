@@ -1,0 +1,61 @@
+body {
+	background-color : #232323;
+}
+h1 {
+	color: white;
+}
+h2 {
+	color: white;
+}
+p {
+	color: white;
+}
+
+
+@media  (max-width: 599px) {
+	.col1 {
+		width: 100%;
+		float: left;
+	}
+	.col2 {
+		width: 100%;
+		float: left;
+	}
+	.col3 {
+		width: 100%;
+		float: left;
+	}
+}
+
+@media  (min-width: 600px) and (max-width: 999px) {
+	.col1 {
+		width: 50%;
+		float: left;
+	}
+	.col2 {
+		width: 50%;
+		float: right;
+	}
+	.col3 {
+		width: 50%;
+		float: left;
+	}
+}
+
+
+@media  all and (min-width: 1000px) {
+	.col1 {
+		width: 33%;
+		float: left;
+	}
+	.col2 {
+		width: 33%;
+		display: inline-block 33%;
+	}
+	.col3 {
+		width: 33%;
+		float: right;
+	}
+}
+
+
