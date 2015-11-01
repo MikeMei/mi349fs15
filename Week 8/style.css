@@ -12,45 +12,17 @@ p {
 }
 
 
-@media  (max-width: 599px) {
-	.col1 {
-		width: 100%;
-		float: left;
-	}
-	.col2 {
-		width: 100%;
-		float: left;
-	}
-	.col3 {
-		width: 100%;
-		float: left;
-	}
-}
-
-@media  (min-width: 600px) and (max-width: 999px) {
-	.col1 {
-		width: 50%;
-		float: left;
-	}
-	.col2 {
-		width: 50%;
-		float: right;
-	}
-	.col3 {
-		width: 50%;
-		float: left;
-	}
-}
 
 
-@media  all and (min-width: 1000px) {
+/*
+@media (min-width: 700px) {
 	.col1 {
 		width: 33%;
 		float: left;
 	}
 	.col2 {
 		width: 33%;
-		display: inline-block 33%;
+		display: inline 33%;
 	}
 	.col3 {
 		width: 33%;
@@ -59,3 +31,72 @@ p {
 }
 
 
+@media  (min-width: 400px) and (max-width: 699px) {
+	.col1 {
+		width: 50%;
+		float: left;
+	}
+	.col2 {
+		width: 50%;
+		float: left;
+	}
+	.col3 {
+		width: 50%;
+		float: left;
+	}
+}
+
+@media  (max-width: 399px) {
+	.col1 {
+		width: 100%;
+		float: center;
+	}
+	.col2 {
+		width: 100%;
+		float: center;
+	}
+	.col3 {
+		width: 100%;
+		float: center;
+	}
+}
+*/
+
+@media (min-width: 400px) {
+	.col1{
+
+	}
+}
+
+@media (min-width: 800px) {
+	.col1{
+		width: 50%;
+		float: left;
+	}
+	.col2{
+		width: 50%;
+		float: right;
+	}
+	.col3{
+		width: 50%;
+		float: left;
+	}
+}
+
+@media (min-width: 1200px) {
+	.col1 { 
+		width: 33%;
+		float: left;
+	}
+
+	.col2 {
+		width: 33%;
+		display: inline 33%;
+	}
+	.col3 {
+		width: 33%;
+		float: right;
+	}
+		
+	
+}
