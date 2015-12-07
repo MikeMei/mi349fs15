@@ -1,0 +1,86 @@
+body {
+  font-family: helvetica;
+  margin: 0 auto;
+  background: #232323;
+}
+button {
+  width: 150px;
+  height: 48px;
+  font-family: 'Architects Daughter', cursive;
+  background: #006622;
+  border: 2px solid white;
+  color: white;
+  font-size: 18px; 
+}
+.headerbar {
+  background: #006622;
+  height: 50px;
+  width: 1920px;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+.cv {
+  width: 1920px;
+  height: 960px;
+  background-image: url("http://i.imgur.com/U8DxFDz.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+  text-align: center;
+
+}
+.socialmedia {
+  position: relative;
+  z-index: 100;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  width: 300px;
+}
+
+/*iphone*/
+@media (min-width: 375px ) and (max-width: 767px) {
+  button {
+    width: 80px;
+    font-size: 14px;
+  }
+  .headerbar {
+    width: 640px;
+  }
+  .cv {
+    background-image: url("http://i.imgur.com/066u86n.png");
+    width: 640px;
+    height: 480px;
+  }
+}
+
+/*tablet*/
+
+@media (min-width: 768px) and (max-width: 1199px ) {
+  button {
+    width: 100px;
+  }
+  .headerbar {
+    width: 1024px;
+  }
+  .cv {
+    background-image: url("http://i.imgur.com/DscuaKT.png");
+    width: 1024px;
+    height: 768px;
+
+  }
+}
+
+/*laptop*/
+@media (min-width: 1200px) and (max-width: 1919px) {
+  button {
+    width: 150px;
+  }
+  .headerbar {
+    width: 1600px;
+  }
+  .cv {
+    width: 1600px;
+    height: 960px;
+  }
+
+}
