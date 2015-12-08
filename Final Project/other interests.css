@@ -1,28 +1,54 @@
 body {
-	font-family: helvetica;
-	margin: 0 auto;
-	background: #232323;
+  font-family: helvetica;
+  margin: 0 auto;
+  background: #232323;
 }
 h1 {
   font-family: helvetica;
   text-align: center;
   font-size: 40px;
-  color: #aaaaaa;
+  color: #006622;
   margin: 60px 0 0 0;
 }
-h2 {
-  text-align: center;
-  color: #bbbbbb;
-  margin: 0px 0 30px 0;
+a {
+  color: white;
 }
 button {
   width: 150px;
-  height: 48px;
+  height: 48px; 
   font-family: 'Architects Daughter', cursive;
   background: #006622;
   border: 2px solid white;
-  color: white; 
+  color: white;
   font-size: 18px;
+}
+div {
+  
+}
+p {
+  color: white;
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  width: 460px;
+}
+small {
+  color: white;
+  opacity: 0;
+}
+.show-description small{
+  opacity: 1;
+}
+.show-description p {
+  height: 75px;
 }
 .headerbar {
   background: #006622;
@@ -30,9 +56,45 @@ button {
   width: 100%;
   margin: 0 0 20px 0;
   text-align: center;
-  }
- .socialmedia {
+}
+
+.pc1 {
+  background-image: url("https://cdn.pcpartpicker.com/static/forever/images/product/0fb854f35d0073571043230ad02fad1f.med.1600.jpg");
+  width: 480px;
+  height: 240px;
   position: relative;
+  margin: auto auto 40px auto ;
+  border-radius: 12px;
+  background-repeat: no-repeat;
+}
+.pc2 {
+  background-image: url("http://i.imgur.com/O3wXtj6.png");
+  width: 480px;
+  height: 240px;
+  position: relative;
+  margin: auto auto 40px auto ;
+  border-radius: 12px;
+}
+.pc3 {
+  background-image: url("http://i.imgur.com/AKmw6qO.png");
+  width: 480px;
+  height: 240px;
+  position: relative;
+  margin: auto auto 40px auto ;
+  border-radius: 12px;
+
+}
+.pc4 {
+  background-image: url("http://i.imgur.com/sCKEqHY.png");
+  width: 480px;
+  height: 240px;
+  position: relative;
+  margin: auto auto 40px auto ;
+  border-radius: 12px;
+}
+
+.socialmedia {
+  position: fixed;
   z-index: 100;
   bottom: 0;
   left: 0;

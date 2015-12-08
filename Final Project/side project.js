@@ -1,3 +1,3 @@
-  $('div').on('click', function() {
+  $('cse231').on('click', function() {
       $(this).toggleClass('show-description');
   });
