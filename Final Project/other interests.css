@@ -38,7 +38,7 @@ p {
   bottom: 0;
   margin: 0;
   height: 30px;
-  width: 460px;
+  width: 620px;
 }
 small {
   color: white;
@@ -56,41 +56,45 @@ small {
   width: 100%;
   margin: 0 0 20px 0;
   text-align: center;
+  vertical-align: center;
 }
 
 .pc1 {
-  background-image: url("https://cdn.pcpartpicker.com/static/forever/images/product/0fb854f35d0073571043230ad02fad1f.med.1600.jpg");
-  width: 480px;
-  height: 240px;
+  background-image: url("http://i.imgur.com/RRX4cNt.png");
+  width: 640px;
+  height: 480px;
   position: relative;
   margin: auto auto 40px auto ;
   border-radius: 12px;
   background-repeat: no-repeat;
 }
 .pc2 {
-  background-image: url("http://i.imgur.com/O3wXtj6.png");
-  width: 480px;
-  height: 240px;
+  background-image: url("http://i.imgur.com/mknzTLb.png");
+  width: 640px;
+  height: 480px;
   position: relative;
   margin: auto auto 40px auto ;
   border-radius: 12px;
+  background-repeat: no-repeat;
 }
 .pc3 {
-  background-image: url("http://i.imgur.com/AKmw6qO.png");
-  width: 480px;
-  height: 240px;
+  background-image: url("http://i.imgur.com/WxLIBM9.jpg");
+  width: 640px;
+  height: 480px;
   position: relative;
   margin: auto auto 40px auto ;
   border-radius: 12px;
+  background-repeat: no-repeat;
 
 }
 .pc4 {
-  background-image: url("http://i.imgur.com/sCKEqHY.png");
-  width: 480px;
-  height: 240px;
+  background-image: url("http://i.imgur.com/YCNJZmc.png");
+  width: 640px;
+  height: 480px;
   position: relative;
   margin: auto auto 40px auto ;
   border-radius: 12px;
+  background-repeat: no-repeat;
 }
 
 .socialmedia {
@@ -103,10 +107,13 @@ small {
 }
 
 /*iphone*/
-@media (min-width: 375px ) and (max-width: 667px) {
+@media (min-width: 375px ) and (max-width: 767px) {
   button {
     width: 80px;
-    font-size: 14px;
+    font-size: 12px;
+  }
+  .socialmedia {
+  	position: relative;
   }
 }
 
@@ -115,6 +122,9 @@ small {
 @media (min-width: 768px) and (max-width: 1024px ) {
   button {
     width: 100px;
+  }
+    .socialmedia {
+  	position: relative;
   }
 }
 
