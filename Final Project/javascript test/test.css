@@ -1,44 +1,13 @@
-/*body {
-  background-color: #232323;
-}
-a {
-  color: white;
-}
-p {
-  color: white;
-  background: black;
-  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  padding: 10px;
-  line-height: 28px;
-  text-align: justify;
-  position: absolute;
-  bottom: 0;
-  margin: 0;
-  height: 30px;
-}
-small {
-  color: white;
-  opacity: 0;
-}
-.show-description small{
-  opacity: 1;
-}
-.show-description p {
-  height: 75px;
-}
 
-.cse231 {
-  background-image: url("http://i.imgur.com/ls0X3Ck.png");
-  width: 480px;
-  height: 240px;
-  position: relative;
-  margin: auto auto 40px auto ;
-  border-radius: 12px;
-}*/
-
-.nodrag {
-    background-color:green;
-    
+h1 {
+  color: white;
+}
+.div2 {
+  height: 400px;
+  width: 400px;
+  background-color: green;
+}
+.main {
+    font-size: 120%;
+    color: red;
 }

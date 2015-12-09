@@ -12,6 +12,11 @@ button {
   color: white;
   font-size: 18px; 
 }
+button:hover {
+  box-shadow: inset 0 0 0 5px #006622;
+  background-color: white;
+  color: #006622;
+}
 .headerbar {
   background: #006622;
   height: 50px;

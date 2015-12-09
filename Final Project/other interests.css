@@ -22,6 +22,11 @@ button {
   color: white;
   font-size: 18px;
 }
+button:hover {
+  box-shadow: inset 0 0 0 5px #006622;
+  background-color: white;
+  color: #006622;
+}
 div {
   
 }
@@ -37,19 +42,18 @@ p {
   position: absolute;
   bottom: 0;
   margin: 0;
-  height: 30px;
+  height: 75px;
   width: 620px;
 }
 small {
   color: white;
-  opacity: 0;
-}
-.show-description small{
   opacity: 1;
 }
-.show-description p {
-  height: 75px;
+.hide small{
+  opacity: 0;
 }
+
+
 .headerbar {
   background: #006622;
   height: 50px;
@@ -59,7 +63,7 @@ small {
   vertical-align: center;
 }
 
-.pc1 {
+.pc1div {
   background-image: url("http://i.imgur.com/RRX4cNt.png");
   width: 640px;
   height: 480px;
@@ -68,7 +72,7 @@ small {
   border-radius: 12px;
   background-repeat: no-repeat;
 }
-.pc2 {
+.pc2div {
   background-image: url("http://i.imgur.com/mknzTLb.png");
   width: 640px;
   height: 480px;
@@ -77,7 +81,7 @@ small {
   border-radius: 12px;
   background-repeat: no-repeat;
 }
-.pc3 {
+.pc3div {
   background-image: url("http://i.imgur.com/WxLIBM9.jpg");
   width: 640px;
   height: 480px;
@@ -87,7 +91,7 @@ small {
   background-repeat: no-repeat;
 
 }
-.pc4 {
+.pc4div {
   background-image: url("http://i.imgur.com/YCNJZmc.png");
   width: 640px;
   height: 480px;
